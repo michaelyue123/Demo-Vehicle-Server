@@ -16,28 +16,23 @@ describe("Demo Vehicle", () => {
       .get("/development/dealers")
       .set("Content-Type", "application/json")
       .set("Accept", "application/json")
-      .end((_err, res) => {
+      .end((err, res) => {
         expect(res).to.have.status(200);
         expect(res.body).to.be.an("array");
         done();
       });
   });
 
-  /**
-   * This test is not passing for some reason. 
-   * it("it should GET all the dealer details", (done) => {
-      const bac = "122345";
-      chai
-        .request(baseUrl)
-        .get(`/development/dealers/${bac}`)
-        .set("Content-Type", "application/json")
-        .set("Accept", "application/json")
-        .end((_err, res) => {
-          expect(res).to.have.status(200);
-          // expect(res).body.should.be.a("array");
-          // expect(res).body.length.should.be.eql(0);
-          done();
-        });
-    });
-   */
+  // it("it should GET all the dealer details", (done) => {
+  //   const bac = "122345";
+  //   chai
+  //     .request(baseUrl)
+  //     .get(`/development/dealers/${bac}`)
+  //     .set("Content-Type", "application/json")
+  //     .set("Accept", "application/json")
+  //     .end((_err, res) => {
+  //       expect(res).to.have.status(200);
+  //       done();
+  //     });
+  // });
 });
