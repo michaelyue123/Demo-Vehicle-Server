@@ -57,4 +57,4 @@ Demo-Vehicle
 
 ## Improvements
 
-Backend server is locally hosted. Please make sure you run backend locally first and then visit the frontend url.
+Backend server is locally hosted at the moment. Please make sure you run backend locally before visiting the frontend url.
