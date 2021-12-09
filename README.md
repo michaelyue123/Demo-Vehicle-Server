@@ -28,7 +28,7 @@ A simple proxy backend server for React Application running on AWS Cloudfront. <
 ## Project Structure
 
 ```
-Demo-Vehicle
+Demo-Vehicle-Server
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
