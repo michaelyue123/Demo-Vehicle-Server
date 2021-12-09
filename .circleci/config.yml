@@ -38,10 +38,6 @@ jobs:
             sudo apt-get install -y awscli
             sudo apt-get install -y python-pip python-dev build-essential
       - run:
-          name: Build Project
-          command: |
-            npm install
-      - run:
           name: Deploy to AWS S3
           command: |
             if [ "${CIRCLE_BRANCH}" == "main" ]
