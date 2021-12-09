@@ -28,9 +28,6 @@ A simple proxy backend server for React Application running on AWS Cloudfront. <
 - Create a production build:
   `yarn build`
 
-- Views are on(default):
-  `localhost:4000`
-
 ## Project Structure
 
 ```
@@ -53,7 +50,6 @@ Demo-Vehicle
 
 - Mocha, a JavaScript test framework for Node.js programs, featuring browser support, asynchronous testing, test coverage reports, and use of any assertion library.
 - Express, a back end web application framework for Node.js.
-
 
 ## Improvements
 
