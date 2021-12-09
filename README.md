@@ -25,9 +25,6 @@ A simple proxy backend server for React Application running on AWS Cloudfront. <
 - Run the test:
   `npm test`
 
-- Create a production build:
-  `yarn build`
-
 ## Project Structure
 
 ```
