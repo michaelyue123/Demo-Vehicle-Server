@@ -16,6 +16,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "aws-sdk": "^2.1045.0",
     "axios": "^0.24.0",
     "chai-http": "^4.3.0",
     "express": "^4.17.1"
