@@ -5,7 +5,7 @@ const app = express();
 
 let port = process.env.PORT;
 if (port == null || port == "") {
-  port = 4000;
+  port = 6000;
 }
 
 app.use(function (_req, res, next) {
