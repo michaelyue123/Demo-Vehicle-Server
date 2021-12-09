@@ -41,6 +41,8 @@ Demo-Vehicle
 ├── tsconfig.json
 ├── README.md
 ├── public
+├── config.js
+├── index.js
 ├── api
 │	└── vehicle.js
 └── test
